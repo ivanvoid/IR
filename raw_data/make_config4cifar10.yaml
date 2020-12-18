@@ -1,0 +1,6 @@
+task: cifar10       ## [cifar10, nuswide, coco]
+class_len: 10       ## class number of this task 
+save_labels: True   ## whether to save images label
+feature_size: 2048  ## feature length
+BS: 256             ## the batch size
+weight_pth: ##result/cifar10new_v1/3_0.3593.h5
